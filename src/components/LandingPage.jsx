@@ -3,8 +3,8 @@ import { BsFacebook, BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 const LandingPage = () => {
 
-  const sinPrecios = "http://localhost:5173/menu1.pdf";
-  const general = "http://localhost:5173/menu2.pdf";
+  const sinPrecios = "https://banna.vercel.app/menu1.pdf";
+  const general = "https://banna.vercel.app/menu2.pdf";
 
   const handleDownload = (url) => {
     const fileName = url.split("/").pop();
