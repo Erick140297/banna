@@ -77,6 +77,10 @@ const Buttons = styled.div`
   justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 30px;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 const Button = styled.button`
@@ -86,9 +90,14 @@ const Button = styled.button`
   font-size: 20px;
   border-radius: 15px;
   border: 2px solid white;
+
   &:hover {
     background: #401c0e;
     cursor: pointer;
+  }
+
+  @media (max-width: 500px) {
+    margin-top: 10px;
   }
 `;
 
@@ -108,6 +117,7 @@ const SocialNetworks = styled.div`
 const FaceBookIcon = styled(BsFacebook)`
   color: #401c0e;
   font-size: 30px;
+
   &:hover {
     color: #ffffff;
     cursor: pointer;
